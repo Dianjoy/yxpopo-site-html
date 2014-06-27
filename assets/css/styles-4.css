@@ -581,10 +581,20 @@ blockquote {
   position: absolute;
 }
 /* ======= Features Section ======= */
-.features {
+.game {
   padding: 80px 0;
 }
-.features .icon {
+.game .item{
+    width:145px;
+    height:130px;
+    float:left;
+}
+.game img{
+    margin:0 auto;
+    width:120px;
+    height:120px;
+}
+.game .icon {
   position: relative;
   width: 90px;
   height: 90px;
@@ -603,59 +613,61 @@ blockquote {
   -moz-transition: -moz-transform ease-out 0.2s, background 0.3s;
   transition: transform ease-out 0.2s, background 0.3s;
 }
-.features .icon:hover {
+.game .icon:hover {
   background: #286da8;
   color: #fff;
 }
-.features .icon:hover .fa {
+.game .icon:hover .fa {
   color: #fff;
   -webkit-transform: scale(0.93);
   -moz-transform: scale(0.93);
   -ms-transform: scale(0.93);
   -o-transform: scale(0.93);
 }
-.features .icon .fa {
+.game .icon .fa {
   color: #286da8;
   font-size: 48px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-.features .content {
+.game .content {
   padding: 30px;
 }
-.features .content .title {
+.game .content .title {
   color: #286da8;
   font-size: 18px;
   margin-top: 0;
 }
-.features .content p {
+.game .content p {
   font-weight: 300;
 }
-/* ======= How Section ======= */
-.how {
+/* ======= download Section ======= */
+.download {
   background-color: #f5f5f5;
   padding: 80px 0;
 }
-.how .content {
+.download .content {
   padding: 0 60px;
 }
-.how .content .title {
+.download .content .title {
   margin-top: 0;
   margin-bottom: 30px;
+  font-zize:16px;
+  font-weight:bold;
 }
-.how .content .intro {
+.download .content .intro {
   margin-bottom: 30px;
   font-size: 16px;
   font-weight: 300;
   color: #777777;
 }
-.how .content .note {
+.download .content .note {
   position: relative;
   padding-bottom: 42px;
   color: #999999;
 }
-.how .content .note .left-arrow {
+.download .content .note .left-arrow {
   position: absolute;
   left: 60px;
   top: 20px;
@@ -664,7 +676,7 @@ blockquote {
   width: 30px;
   height: 42px;
 }
-.how .content .note .right-arrow {
+.download .content .note .right-arrow {
   position: absolute;
   right: 60px;
   top: 20px;
@@ -673,115 +685,54 @@ blockquote {
   width: 30px;
   height: 42px;
 }
-.how .content .qr-codes .item img {
+.download .content .qr-codes .item img {
   margin-bottom: 15px;
   max-width: 150px;
 }
-.how .content .qr-codes .item p {
+.download .content .qr-codes .item p {
   color: #777777;
 }
-.how .video-container {
-  margin-top: 50px;
+.download .content .font-download{
+    font-weight: bold;
+    font-size: 15px;
+
 }
-/* ======= FAQ Section ======= */
-.faq {
+.download .logo-container {
+    padding: 0 60px;
+    margin-top: 0px;
+}
+
+.download .logo-container .logo-font{
+    float: left;
+    text-indent:2em ;
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+.download .logo-container h1.logo-mag{
+    margin: auto;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    max-height: 50px;
+}
+
+
+/* ======= product Section ======= */
+.product {
   padding: 80px 0;
 }
-.faq .title {
+.product .title {
   margin-bottom: 60px;
 }
-.faq .item {
-  padding: 30px;
-  background: #f5f5f5;
-  margin-bottom: 30px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border-bottom: 3px solid #87b8e2;
-}
-.faq .item .question {
-  margin-top: 0;
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-.faq .item .question .fa {
-  margin-right: 10px;
-  color: #3488cf;
-}
-.faq .item .answer {
-  color: #777777;
-  font-weight: 300;
-}
-.faq .more {
-  margin-top: 30px;
-}
-.faq .more .title {
-  margin-bottom: 15px;
-  color: #999999;
-  font-size: 18px;
-}
-.faq .more .btn {
-  font-size: 18px;
-  padding-left: 30px;
-}
-.faq .more .btn .fa {
-  margin-left: 5px;
-}
-/* ======= Story Section ======= */
-.story {
-  background-color: #286da8;
-  color: #fff;
-  padding: 80px 0;
-}
-.story .content .title {
-  margin-bottom: 30px;
-  margin-top: 0;
-}
-.story .content p {
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 15px;
-}
-.story .team {
-  font-size: 16px;
-}
-.story .team .member img {
-  margin-bottom: 15px;
-}
-.story .team .member .name {
-  color: #0b1d2c;
-  margin-bottom: 0px;
-}
-.story .team .member .title {
-  color: #87b8e2;
-  font-weight: 300;
-}
-.story .team .connect {
-  color: #fff;
-  font-size: 26px;
-}
-.story .team .connect a {
-  color: #143856;
-}
-.story .team .connect a:hover {
-  color: #060f18;
-}
-/* ======= Testimonials Section ======= */
-.testimonials {
-  padding: 80px 0;
-}
-.testimonials .title {
-  margin-bottom: 60px;
-}
-.testimonials .item {
+.product .item {
   margin-bottom: 30px;
 }
-.testimonials .item .quote-box {
+.product .item .quote-box {
   background: #f5f5f5;
   padding: 30px;
   -webkit-border-radius: 4px;
@@ -796,14 +747,14 @@ blockquote {
   position: relative;
   margin-bottom: 23px;
 }
-.testimonials .item .quote-box .fa {
+.product .item .quote-box .fa {
   color: #286da8;
   font-size: 18px;
   position: absolute;
   left: 30px;
   top: 20px;
 }
-.testimonials .item .quote-box:after {
+.product .item .quote-box:after {
   content: "";
   display: block;
   width: 0;
@@ -815,7 +766,7 @@ blockquote {
   bottom: -10px;
   left: 55px;
 }
-.testimonials .item .quote {
+.product .item .quote {
   border: none;
   padding: 0;
   padding-left: 20px;
@@ -823,37 +774,43 @@ blockquote {
   font-weight: 300;
   margin-bottom: 0;
 }
-.testimonials .item .people .user-pic {
+.product .item .people .user-pic {
   max-width: 60px;
   max-height: 60px;
 }
-.testimonials .item .people .user-pic,
-.testimonials .item .people .user-pic *,
-.testimonials .item .people .user-pic *:before,
-.testimonials .item .people .user-pic *:after {
+.product .item .people .user-pic,
+.product .item .people .user-pic *,
+.product .item .people .user-pic *:before,
+.product .item .people .user-pic *:after {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-.testimonials .item .people .name {
-  display: block;
+.product .item .people{
+    padding: 30px;
 }
-.testimonials .item .people .title {
+.product .item .people .name {
+  display: block;
+  text-indent: 2em;
+  font-size:18px;
+  font-weight: 600;
+}
+.product .item .people .title {
   display: block;
   color: #999999;
 }
-.testimonials .press .note {
+.product .press .note {
   color: #286da8;
   margin-bottom: 30px;
 }
-.testimonials .press li {
+.product .press li {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.testimonials .press li.last {
+.product .press li.last {
   margin-right: 0;
 }
-.testimonials .press li a img {
+.product .press li a img {
   -webkit-opacity: 0.6;
   -moz-opacity: 0.6;
   opacity: 0.6;
@@ -862,7 +819,7 @@ blockquote {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-.testimonials .press li a:hover img {
+.product .press li a:hover img {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
