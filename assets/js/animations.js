@@ -28,16 +28,16 @@ jQuery(document).ready(function($) {
         });
     
         /* Animate elements in #Features */
-        $('#features .icon').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#game .icon').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
         });
         
         /* Animate elements in #How */
-        $('#how .video-wrapper').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#download .video-wrapper').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInLeft delayp1');}
         });
         
-        $('#how .content').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#download .content').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInRight delayp2');}
         });
         
@@ -65,19 +65,19 @@ jQuery(document).ready(function($) {
         });
         
         /* Animate elements in #testimonials */
-        $('#testimonials .title').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#product .title').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
         });
         
-        $('#testimonials .quote-box').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#product .quote-box').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp2');}
         });
         
-        $('#testimonials .people').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#product .people').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp3');}
         });
         
-        $('#testimonials .press').css('opacity', 0).one('inview', function(event, isInView) {
+        $('#product .press').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp1');}
         });
         

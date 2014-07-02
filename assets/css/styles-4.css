@@ -582,7 +582,9 @@ blockquote {
 }
 /* ======= Features Section ======= */
 .game {
-  padding: 80px 0;
+  /*padding: 80px 0;*/
+  padding-top:80px;
+  padding-bottom:0;
 }
 .game .item{
     width:145px;
@@ -724,14 +726,48 @@ blockquote {
 
 /* ======= product Section ======= */
 .product {
-  padding: 80px 0;
+  /*padding: 80px 0;*/
+  padding-top:0;
 }
 .product .title {
   margin-bottom: 60px;
 }
 .product .item {
-  margin-bottom: 30px;
+  height:310px;
+  width:1078px;
+  padding-top:100px;
 }
+.product .item p{
+  font-size:20px;
+  color: #a0a0a0;
+  letter-spacing:.1em;
+}
+
+div{
+  display:block;
+}
+.product .item-1{
+  background: url(../images/product1.jpg) right center no-repeat;
+  margin:0 40px 0 22px;
+}
+.product .item-2{
+  text-align:right;
+  background: url(../images/product1.jpg) left center no-repeat;
+  margin-left:42px;
+  padding-top:0;
+}
+
+.product .item-3{
+  background: url(../images/product1.jpg) right center no-repeat;
+  margin:0 0 0 22px;
+}
+.product .item-4{
+  text-align:right;
+  background: url(../images/product1.jpg) left center no-repeat;
+  margin-left:50px;
+}
+
+
 .product .item .quote-box {
   background: #f5f5f5;
   padding: 30px;
@@ -778,24 +814,29 @@ blockquote {
   max-width: 60px;
   max-height: 60px;
 }
-.product .item .people .user-pic,
-.product .item .people .user-pic *,
-.product .item .people .user-pic *:before,
-.product .item .people .user-pic *:after {
+.product .item .picture .user-pic,
+.product .item .picture .user-pic *,
+.product .item .picture .user-pic *:before,
+.product .item .picture .user-pic *:after {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-.product .item .people{
+.product .item .picture{
     padding: 30px;
+    padding-top: 0px;
 }
-.product .item .people .name {
+.product .item .picture .name {
   display: block;
   text-indent: 2em;
   font-size:18px;
   font-weight: 600;
+  padding-top:50px;
 }
-.product .item .people .title {
+.product .item .picture .div-img {
+    background: url('../images/product2.jpg') no-repeat left top;
+}
+.product .item .picture .title {
   display: block;
   color: #999999;
 }
