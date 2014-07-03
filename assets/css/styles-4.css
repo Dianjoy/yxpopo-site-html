@@ -128,11 +128,11 @@ blockquote {
 .offset-header {
   padding-top: 90px;
 }
-.has-pattern {
+/*.has-pattern {
   background-image: url('../images/patterns/pattern-1.png');
   background-repeat: repeat;
   background-position: left top;
-}
+}*/
 .delayp1 {
   animation-delay: .1s;
   -moz-animation-delay: .1s;
@@ -246,7 +246,7 @@ blockquote {
 /* ======= Header ======= */
 .header {
   padding: 15px 0;
-  background: #fff;
+  background: #00bef2 ;
   z-index: 9999;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -373,16 +373,20 @@ blockquote {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background-color: #286da8;
+  background-color:  #e3e7f0;
   color: #fff;
 }
 .promo .container {
   padding-bottom: 15px;
 }
 .promo .overview {
-  margin-top: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-top: 80px;
+  margin-bottom:0;
+  background-image: url('../images/words.png');
+  height:500px;
+  width:600px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 .promo .overview h2 {
   font-size: 30px;
@@ -479,26 +483,29 @@ blockquote {
 }
 .promo .iphone {
   position: relative;
+  width:500px;
+  margin-left:70px;
 }
 .promo .iphone .iphone-holder {
   position: relative;
-  width: 320px;
   height: 600px;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position:right bottom;
+  margin-right: 0;
 }
 .promo .iphone.iphone-black .iphone-holder {
   background-image: url('../images/iphone/iphone-black.png');
 }
 .promo .iphone.iphone-white .iphone-holder {
-  background-image: url('../images/iphone/iphone-white.png');
+  background-image: url('../images/iphone/phone.png');
+
 }
 .promo .iphone .iphone-holder-inner {
   position: absolute;
-  width: 222px;
-  height: 394px;
-  left: 51px;
-  top: 103px;
+  width:350px;
+  height:200px;
+  left: 58px;
+  top: 115px;
 }
 .promo .iphone .flexslider .flex-control-nav {
   bottom: -50px;
@@ -1132,8 +1139,9 @@ div{
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .promo .overview {
+ .promo .overview {
     text-align: center;
+
   }
   .promo .overview .summary {
     margin-left: 60px;
