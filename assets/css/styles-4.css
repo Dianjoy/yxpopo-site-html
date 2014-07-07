@@ -290,9 +290,13 @@ blockquote {
   text-transform: uppercase;
   margin-right: 10px;
 }
-.header .main-nav .nav .nav-item.active a {
-  color: #286da8;
+.header .main-nav .nav .nav-item.active a{
+ /* color: #286da8;
   background: none;
+  color:#fef200;*/
+  color:#000000;
+  background:#fef200;
+  height:80px;
 }
 .header .main-nav .nav .nav-item a {
   color:#ffffff;
@@ -378,7 +382,8 @@ blockquote {
   z-index: 10
 }
 .flexslider .flex-control-paging li a {
-  background: #a1a1a1;
+ /* background: #a1a1a1;*/
+  background:#ffffff;
 }
 .flexslider .flex-control-paging li a:hover {
   background: #286da8;
