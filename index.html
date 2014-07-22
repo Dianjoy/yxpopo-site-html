@@ -166,29 +166,32 @@
     <div class="row text-center">
       <h2 class="title">联系我们</h2>
       <div class="mail">
-        <img class="mailimag" src="assets/images/emil.png" alt=""/>
-        <form class="form" action="" method="post">
+        <img class="mail-img" src="assets/images/emil.png" alt=""/>
+        <form target="showDataForm" class="form" action="http://localhost:8080/postmail" method="post" >
           <div class="name">
             <label class="sr-only" for="name">您的称呼</label>
-            <input id="name" type="text" class="form-control" placeholder="Name:">
+            <input id="name" name="username" type="text" class="form-control" placeholder="Name:">
           </div>
           <!--//form-group-->
           <div class="email">
             <label class="sr-only" for="email">您的邮件</label>
-            <input id="email" type="email" class="form-control" placeholder="Email:">
+            <input id="email" name="email" type="email" class="form-control" placeholder="Email:">
           </div>
           <!--//form-group-->
           <div class="messages">
             <label class="sr-only" for="message">留言</label>
-            <textarea id="message" class="form-control" rows="6" placeholder="Message:"></textarea>
+            <textarea id="message" name= "message" class="form-control" rows="6" placeholder="Message:"></textarea>
           </div>
-          <!--//form-group       -->
+          <!--//form-group-->
           <div class="but">
             <label style="color:#b6bac2;font-size:14px;text-align: left;">无论您是心怀一问还是有槽要吐<br>我们都随时欢迎</label>
-            <button type="submit" class="btn btn-lg btn-theme">发送</button>
+            <button type="submit" class="btn btn-lg btn-theme" onclick="ale()">发送</button>
           </div>
         </form>
         <!--//form-->
+        <iframe name="showDataForm" id="showDataForm" style="display:none">
+
+        </iframe>
       </div>
     </div>
     <!--//row-->
@@ -221,6 +224,16 @@
 <!--[if !IE]>-->
 <script src="assets/js/animations.js"></script>
 <!--<![endif]-->
+<script type="text/javascript">
+  function ale(){
+    if(confirm("谢谢你所提的意见")){
+      location.href="http://www.yxpopo.com";
+    }
+    else{
+      alert("thank you!");
+    }
+  }
+</script>
 </body>
 </html> 
 
