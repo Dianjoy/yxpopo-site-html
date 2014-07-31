@@ -513,7 +513,6 @@ blockquote {
   position: relative;
   height: 580px;
   background-repeat: no-repeat;
-
   margin-right: 0;
 }
 .flexslider .slides img{
@@ -914,6 +913,9 @@ div{
 .contact .contact-form .btn-theme {
   background-color: #00bef2;
   margin-top: 35px;
+}
+.contact .btn-theme{
+  width:150px;
 }
 .contact .social-icons {
   display: inline-block;
