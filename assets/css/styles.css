@@ -754,13 +754,13 @@ blockquote {
     height:40px;
   }
   .header .navbar-toggle{
-    padding:9px 9px;
+    padding:9px 6px;
     margin-top:3px;
     margin-bottom: 2px;
     margin-right:-12px;
   }
   .header .main-nav button{
-    border:1px solid white;
+    border:1px solid #0AA9D5;
     background:#00bef2;
   }
   .header .main-nav .nav .nav-item.active{
@@ -907,15 +907,17 @@ blockquote {
   .features .item{
     height: auto;
     text-align: center;
+    overflow: hidden;
   }
 
   .features .item .left{
     margin-left: 0;
   }
-  .features .item .left-2{
-    margin-left: 10px;
-    overflow:hidden;
+  .features .item .left-2 {
+    position: relative;
+    left:19px;
   }
+
   .features .item .item-describe{
     width:90%;
     height:auto;
