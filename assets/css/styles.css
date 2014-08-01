@@ -403,17 +403,11 @@ blockquote {
   background-color: #e3e7f0;
   color: #fff;
 }
-.download .container {
-  padding-bottom: 2px;
-}
-.download .phone{
- /* float:right;*/
-}
+
 .download .overview {
   margin-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
-
 }
 .download .overview .word-describe{
   width:478px;
@@ -455,14 +449,15 @@ blockquote {
 .download .download-button{
   display: inline-block;
   text-align: center;
-  width:154px;
+  width:130px;
   height: 30px;
-  color: #666666;
+  color: #fff;
   border:1px solid #fff;
   border-radius: 20px;
   background-color: #00bef2;
-  font-size: 10px;
-  padding: 5px 0;
+  font-size: 12px;
+  line-height:30px;
+  margin-top:5px;
 }
 .download .overview .word-describe .weixin img{
   width:100px;
@@ -471,12 +466,15 @@ blockquote {
 .download .overview .word-describe ul{
   position: relative;
   float:right;
+  margin:0 ;
+  padding:0;
+  text-align: center;
 }
 .download .overview .word-describe li{
   display: inline;
   float:left;
-  text-align: center;
   margin-left:25px;
+
 }
 .download .list{
   border-top: 1px solid #666666;
@@ -493,10 +491,11 @@ blockquote {
   height: 580px;
   width:465px;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center bottom;
 }
 .download .iphone.iphone-black .iphone-holder {
   background-image: url('../images/iphone/phone.png');
+
 }
 .download .iphone.iphone-white .iphone-holder {
   background-image: url('../images/iphone/phone.png');
@@ -508,9 +507,9 @@ blockquote {
 }
 .download .iphone .iphone-holder-inner {
   position: absolute;
-  width: 379px;
-  left: 21px;
-  top: 83px;
+  width: 380px;
+  left: 43px;
+  top: 79px;
 }
 .download .iphone .flexslider .flex-control-nav {
   bottom: 0;
@@ -542,10 +541,12 @@ blockquote {
 .features .item .right{
   position: relative;
   float:right;
+  height:100%;
 }
 .features .item .left{
   position: relative;
   float:left;
+  height:100%;
   margin-left:30px;
 }
 .features .item .center{
@@ -692,7 +693,7 @@ blockquote {
   text-align: left;
 }
 .contact .text-weixin{
-  background: url(../images/webxin.png)no-repeat 100px center;
+  background: url(../images/webxin.jpg)no-repeat 100px center;
   width:500px;
   margin:0 auto;
   padding-left:200px;
@@ -775,11 +776,14 @@ blockquote {
   .navbar-nav>li>a{
     line-height: 25px;
   }
+
   .download .overview .word-describe{
     width:100%;
   }
   .download .overview .word-describe li{
-    margin-left:12px;
+    padding-bottom:20px;
+    width:100%;
+    margin-left:0;
   }
   .download .overview .word-describe img{
     width:100%;
@@ -799,18 +803,11 @@ blockquote {
     padding-top:25px;
     height:100px;
   }
-  .download .overview .word-describe .weixin img{
-    /*width:100%;*/
-    height:100%;
-    vertical-align: middle;
-  }
   .download .list{
     border:0;
     text-align: center;
-    margin-left:15px;
   }
   .download .list label{
-
     font-size:9px;
   }
   .download .overview .summary li {
@@ -847,14 +844,12 @@ blockquote {
   }
   .flexslider .slides img{
     display:block;
-    height:320px;
+    height:318px;
   }
   .download .phone .phone-holder {
     margin: 0 auto;
     width: auto;
     height:380px;
-    margin-left:3%;
-    margin-right: 8%;
     -webkit-background-size: 300px auto;
     -moz-background-size: 300px auto;
     -o-background-size: 300px auto;
@@ -862,8 +857,8 @@ blockquote {
   }
   .download .iphone .iphone-holder-inner {
     position: absolute;
-    width: 247px;
-    left: 12px;
+    width: 243px;
+    left: 24px;
     top: 61px;
   }
   .download .android .android-holder-inner {
@@ -925,8 +920,6 @@ blockquote {
     padding-left:0;
     padding-right: 0;
     text-align:center;
-
-
   }
   .features .item .item-left{
     margin-bottom: 10px;
