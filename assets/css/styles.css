@@ -438,7 +438,6 @@ blockquote {
 .download .overview .word-describe p{
   font-size: 16px;
   text-align: left;
-
   color:#666666;
 }
 
@@ -480,11 +479,14 @@ blockquote {
   border-top: 1px solid #666666;
   text-align: center;
   margin-bottom: -15px;
+  padding-top:10px;
 }
-.download .list label{
+.download .overview .word-describe .list p{
   padding-top:10px;
   font-size:14px;
+  display:inline;
   color: #666666;
+  margin-left:20px;
 }
 .download .iphone .iphone-holder {
   position: relative;
@@ -800,15 +802,19 @@ blockquote {
     font-size:8px;
   }
   .download .overview .word-describe .weixin{
-    padding-top:25px;
+    padding-top:15px;
     height:100px;
   }
   .download .list{
     border:0;
     text-align: center;
+    margin-bottom: 10px;
   }
-  .download .list label{
+  .download .overview .word-describe .list p{
     font-size:9px;
+    display:block;
+    text-align: center;
+    margin:0 auto;
   }
   .download .overview .summary li {
     font-size: 18px;
@@ -824,7 +830,9 @@ blockquote {
   }
   .download .overview {
     text-align: center;
-    margin-top:0;
+
+    position: relative;
+    margin-top:350px;
   }
   .download .overview img{
     width:230px;
@@ -841,6 +849,8 @@ blockquote {
   }
   .download .phone {
     text-align: center;
+    position:absolute;
+    margin-top:-40px;
   }
   .flexslider .slides img{
     display:block;
@@ -857,9 +867,10 @@ blockquote {
   }
   .download .iphone .iphone-holder-inner {
     position: absolute;
-    width: 243px;
-    left: 24px;
-    top: 61px;
+    width: 242px;
+    left: 50%;
+    top: 62px;
+    margin-left:-121px;
   }
   .download .android .android-holder-inner {
     width: 238px;
@@ -922,7 +933,7 @@ blockquote {
     text-align:center;
   }
   .features .item .item-left{
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
   }
   .features .body .item .item-describe img{
     width:100%;
