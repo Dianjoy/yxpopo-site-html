@@ -6,7 +6,7 @@
 */
 /* ======= Base ======= */
 body {
-  font-family:'华文细黑', 'Lato', arial, sans-serif;
+  font-family:'微软雅黑','华文细黑' ,'Lato', arial, sans-serif;
   color: #444444;
 }
 a {
@@ -19,6 +19,9 @@ a {
 a:hover {
   text-decoration: none;
   color: #3fa07a;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight:normal;
 }
 h2{
   font-size: 70px;
@@ -136,11 +139,6 @@ blockquote {
 .offset-header {
   padding-top: 90px;
 }
-/*.has-pattern {
-  background-image: url('../images/patterns/pattern-1.png');
-  background-repeat: repeat;
-  background-position: left top;
-}*/
 .delayp1 {
   animation-delay: .1s;
   -moz-animation-delay: .1s;
@@ -403,7 +401,6 @@ blockquote {
   background-color: #e3e7f0;
   color: #fff;
 }
-
 .download .overview {
   margin-top: 50px;
   padding-left: 30px;
@@ -413,14 +410,12 @@ blockquote {
   width:478px;
   padding-top:5px;
   text-align: right;
-
 }
 .download .overview .word-describe img{
   width:478px;
 }
 .download .overview .word-describe h1{
   font-size:100px;
-  font-weight: 600;
   line-height:77px ;
   color:#333333;
   text-align: left;
@@ -431,16 +426,13 @@ blockquote {
   font-size: 48px;
   margin-bottom: 10px;
   margin-top:0;
-  font-weight: 300;
   color:#666666;
-
 }
 .download .overview .word-describe p{
   font-size: 16px;
   text-align: left;
   color:#666666;
 }
-
 .download .overview .word-describe .weixin{
   padding-top:70px;
   height:250px;
@@ -472,7 +464,6 @@ blockquote {
   display: inline;
   float:left;
   margin-left:25px;
-
 }
 .download .list{
   border-top: 1px solid #666666;
@@ -496,12 +487,10 @@ blockquote {
 }
 .download .iphone.iphone-black .iphone-holder {
   background-image: url('../images/iphone/phone1.png');
-
 }
 .download .iphone.iphone-white .iphone-holder {
   background-image: url('../images/iphone/phone1.png');
 }
-
 .flexslider .slides img{
   display:block;
   height:500px;
@@ -521,7 +510,6 @@ blockquote {
 }
 .features .item-two{
   background-color: #f3f3f3;
-
 }
 .features .item{
   margin:0;
@@ -537,7 +525,6 @@ blockquote {
   font-size: 16px;
   color:#666666;
   text-align: left;
-
 }
 .features .item .right{
   position: relative;
@@ -718,7 +705,6 @@ blockquote {
 }
 .contact .contact-form .btn-theme {
   background-color: #00bef2;
-
 }
 .contact .btn-theme{
   width:150px;
@@ -777,7 +763,6 @@ blockquote {
   .navbar-nav>li>a{
     line-height: 25px;
   }
-
   .download .overview .word-describe{
     width:100%;
   }
@@ -913,7 +898,6 @@ blockquote {
     text-align: center;
     overflow: hidden;
   }
-
   .features .item .left{
     margin-left: 0;
   }
@@ -921,7 +905,6 @@ blockquote {
     position: relative;
     left:19px;
   }
-
   .features .item .item-describe{
     width:90%;
     height:auto;
@@ -929,9 +912,6 @@ blockquote {
     padding-left:0;
     padding-right: 0;
     text-align:center;
-  }
-  .features .item .item-left{
-    /*margin-bottom: 10px;*/
   }
   .features .body .item .item-describe img{
     width:100%;
@@ -970,7 +950,6 @@ blockquote {
     margin-bottom:0;
     margin-top:200px;
     margin-right:27%;
-
   }
   .game .row .item p{
     font-size: 11px;
@@ -1010,7 +989,6 @@ blockquote {
     width:220px;
     margin:0 auto;
   }
-
   .contact .send{
     width:220px;
     margin:0 auto;
