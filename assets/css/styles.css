@@ -302,12 +302,12 @@ blockquote {
   height:80px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color:#286da8;
+  color:#068aae;
   background:#fef200;
   height:80px;
 }
 .header .main-nav .nav .nav-item a {
-  color: #286da8;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
