@@ -302,12 +302,12 @@ blockquote {
   height:80px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color:#000000;
+  color:#286da8;
   background:#fef200;
   height:80px;
 }
 .header .main-nav .nav .nav-item a {
-  color: #ffffff;
+  color: #286da8;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -319,7 +319,7 @@ blockquote {
   padding:30px 30px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #286da8;
+  color: #000;
   background: #fef200;
 }
 .header .main-nav .nav .nav-item a:focus {
