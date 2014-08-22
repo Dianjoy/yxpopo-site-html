@@ -16,6 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="游戏宝典是一款免费提供游戏攻略、资讯的手游玩家必备工具，收录了超过30万款优质游戏，聚合了超过100万篇游戏攻略，争做国内最大的游戏内容媒体。">
   <meta name="author" content="Meathill <meathill@gmail.com>">
+  <meta property="qc:admins" content="140556771761007076375" />
   <link rel="shortcut icon" href="assets/images/logo/logo.png" type="image/png">
   <!-- Global CSS -->
   <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
@@ -59,6 +60,7 @@
           <li class="nav-item"><a class="scrollto" href="#features">产品特性</a></li>
           <li class="nav-item"><a class="scrollto" href="#game">热门游戏</a></li>
           <li class="nav-item last"><a class="scrollto" href="#contact">联系我们</a></li>
+          <li class="nav-item"><a class="scrollto" data-toggle="modal" data-target="#myModal">登录</a></li>
         </ul><!--//nav-->
       </div><!--//navabr-collapse-->
     </nav><!--//main-nav-->
@@ -239,6 +241,49 @@
     </div><!--//row-->
   </div><!--//container-->
 </section><!--//contact-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">登录</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="用户名">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default btn-login">登录</button>
+              <br>
+              使用合作网站账号登录<br>
+              <div class="other-login">
+                <a>
+                  <img src="http://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Connect_logo_3.png" alt="QQ登录" border="0">
+                </a>
+                <a>
+                  <img src="http://timg.sjs.sinajs.cn/t4/appstyle/widget/images/loginButton/loginButton_24.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- ******FOOTER****** -->
 <footer class="footer">
